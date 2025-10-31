@@ -50,7 +50,7 @@ def find_chapter_by_request(query):
 
 def format_tts(text, use_voice=True):
     if use_voice:
-        return f'<speaker voice="omazh">{text}</speaker>'
+        return f'<speaker voice="">{text}</speaker>'
     return text
 
 @app.route('/alice', methods=['POST'])
