@@ -11,7 +11,7 @@ with open('bible_365.json', 'r', encoding='utf-8') as f:
     BIBLE = json.load(f)
 
 # Дата начала отсчёта
-START_DATE = datetime.date(2025, 1, 1)
+START_DATE = datetime.date(2025, 11, 03)
 
 # Сопоставление разговорных форм с полными названиями
 BOOK_ALIASES = {
